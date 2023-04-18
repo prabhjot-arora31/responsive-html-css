@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 0.4rem;
+    display: flex;
+    height: 20%;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo .logo-img {
+    width: 3.5rem;
+    border-radius: 70%;
+}
+.header .actions {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+}
+
+.header .actions a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:700px) {
+    .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.main .section1 #box1 {
+    width: 300px;
+    /* position: absolute; */
+    z-index: 8;
+    height: 17rem;
+    /* min-height: 35vh; */
+    background-color: #B7B7B7;
+    cursor: pointer;
+    border-radius: 0.7rem;
+}
+.main .bg-img{
+    position: absolute;
+    opacity: 0.55;
+    width: 120%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    /* z-index: 5; */
+}
+.head{
+    opacity: 1;
+}
+.section1 #box1:hover{
+    background-color: #7C96AB;
+    padding: 0.3rem;
+}
+.main{
+    position: relative;
+    padding-top: 1.5rem;
+}
+
+.section1 #box1 .course-image {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+}
+
+.section1 #box1 .course-desc {
+    text-align: center;
+    padding: 0.3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.section1 #box1 .course-length {
+    text-align: center;
+    padding: 0.3rem;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.section1 #box1 img {
+    width: 95%;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+}
+
+.section1 #box2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.section1 #box3 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.subscribe .s2 {
+    display: flex;
+    gap: 1.3rem;
+    margin: 0 auto;
+}
+.subscribe .s2 input {
+    width: 15rem;
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.4rem;
+    font-weight: bold;
+
+}
+.subscribe .s2 input:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.subscribe .s2 input:hover::placeholder
+{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+.subscribe .s2 input::placeholder {
+    font-weight: bold;
+    color: white;
+}
+ button{
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+ }
+ button:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+ }
+ .contact{
+    padding: 1.2rem;
+ }
+ .contact h1{
+    text-align: center;
+ }
+ form{
+    text-align: center;
+    padding: 2rem;
+ }
+ form label{
+    font-weight: bold;
+    line-height: 2;
+ }
+ form input{
+    width: 15rem;
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.4rem;
+    font-weight: bold;
+ }
+form input::placeholder {
+    font-weight: bold;
+    color: white;
+}
+form input:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+form input:hover::placeholder
+{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+.contact .small-main{
+display: flex;
+padding: 1.2rem;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+.contact .small-main p{
+    width: 30%;
+    font-weight: bold;
+    font-size:16.4px;
+}
+.contact .small-main img{
+    border-radius: 50%;
+width: 200px;
+}
+.inner-main{
+    display: flex;
+    justify-content: center;
+}
+.inner-main .desc p {
+    width: 30%;
+}
