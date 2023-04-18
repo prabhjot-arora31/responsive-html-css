@@ -242,3 +242,17 @@ width: 200px;
 footer h3 {
     font-size: 14px;
 }
+.partner-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+@media (max-width:998px) {
+    .partner-images img{
+        width: 90px;
+    }
+
+    
+}
